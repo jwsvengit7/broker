@@ -1,0 +1,74 @@
+		.stickyr{
+    position: fixed;
+    top:0px;
+    z-index: 1
+}
+		
+		.app_head_2{
+			height: auto
+
+		}
+		.header-tag{
+			width: 100%;
+			height: auto;
+			background-color: #fff
+		}
+		.header{
+		background-color: #222
+		}
+		.header2{
+			background-color: #fff;
+		}
+		.app_main{
+			height: auto;
+		}
+		.box-show{
+			height: auto;
+			margin: 5px
+		}
+		.box_sh{
+			border-radius: 15px;
+		}
+		.onhover{
+			width:40px;border-radius:100px;
+			height: 40px
+		}
+		.onhover:hover{
+			transition-duration: 0.5s;
+			width: 50px;height: 50px;
+			box-shadow: 0 8px 20px #ddd, 0 1px 1px #ddd;
+
+		}
+		.notify{
+			width:15px;height: 15px;border-radius: 100px;
+			background-color: red;position: absolute;
+			margin-top: -7px;margin-left: 10px
+		}
+		#sidebar-left{
+			width: 100%;
+			height: 100vh;
+			background-color: rgba(0,0,0,0.6);
+			position: fixed;
+			top: 0px;
+			z-index: 2;
+			display: none;justify-content: flex-end;
+		}
+		.sidediv{
+			width: 29%;
+			height: 100vh;
+			background-color: white;
+			position: absolute;
+			transition-duration: 4s;
+			right: 0%;
+		}
+		.boximage{
+			width:100px;height: 100px;
+			border-radius: 10px;
+			margin:5px
+
+		}
+			.boximage img{
+			
+			border-radius: 10px;
+
+		}
